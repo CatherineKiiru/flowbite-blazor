@@ -50,6 +50,32 @@ path-to-application:
 ```
 3. Create a New Blazor Project
 
+Run this command in your terminal to create a Blazor project. This command creates your project's scaffold and a directory called BlazorApp: 
+
+```JavaScript
+dotnet new blazorserver -o BlazorApp --no-https -f net7.0
+```
+Move into the BlazorApp directory:
+
+```JavaScript
+cd BlazorApp
+```
+
+Run this command in your terminal to launch your application and watch for changes:
+
+```JavaScript
+dotnet watch
+```
+Your terminal will show that your app is listening on http://localhost:<port number> and should launch on your web browser. You can also click on the port to run your application. 
+
+Congratulations you have now installed and ran your first Blazor project! In the next section, we will configure Tailwind CSS with Blazor
+
+4. Install and configure Tailwind CSS with Blazor
+
+
+
+
+
 
 
 
